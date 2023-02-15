@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/helpee-shop/static/css/main.073c9b0a.css",
-    "main.js": "/helpee-shop/static/js/main.7d10c5e9.js",
-    "static/js/787.08d4b825.chunk.js": "/helpee-shop/static/js/787.08d4b825.chunk.js",
-    "static/media/logo.svg": "/helpee-shop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/helpee-shop/static/css/main.a6d19dbe.chunk.css",
+    "main.js": "/helpee-shop/static/js/main.d61c054c.chunk.js",
+    "main.js.map": "/helpee-shop/static/js/main.d61c054c.chunk.js.map",
+    "runtime-main.js": "/helpee-shop/static/js/runtime-main.9250a2ff.js",
+    "runtime-main.js.map": "/helpee-shop/static/js/runtime-main.9250a2ff.js.map",
+    "static/js/2.ebce26f5.chunk.js": "/helpee-shop/static/js/2.ebce26f5.chunk.js",
+    "static/js/2.ebce26f5.chunk.js.map": "/helpee-shop/static/js/2.ebce26f5.chunk.js.map",
+    "static/js/3.ea6d300d.chunk.js": "/helpee-shop/static/js/3.ea6d300d.chunk.js",
+    "static/js/3.ea6d300d.chunk.js.map": "/helpee-shop/static/js/3.ea6d300d.chunk.js.map",
     "index.html": "/helpee-shop/index.html",
-    "main.073c9b0a.css.map": "/helpee-shop/static/css/main.073c9b0a.css.map",
-    "main.7d10c5e9.js.map": "/helpee-shop/static/js/main.7d10c5e9.js.map",
-    "787.08d4b825.chunk.js.map": "/helpee-shop/static/js/787.08d4b825.chunk.js.map"
+    "static/css/main.a6d19dbe.chunk.css.map": "/helpee-shop/static/css/main.a6d19dbe.chunk.css.map",
+    "static/js/2.ebce26f5.chunk.js.LICENSE.txt": "/helpee-shop/static/js/2.ebce26f5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7d10c5e9.js"
+    "static/js/runtime-main.9250a2ff.js",
+    "static/js/2.ebce26f5.chunk.js",
+    "static/css/main.a6d19dbe.chunk.css",
+    "static/js/main.d61c054c.chunk.js"
   ]
 }
