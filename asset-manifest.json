@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/helpee-shop/static/css/main.a6d19dbe.chunk.css",
-    "main.js": "/helpee-shop/static/js/main.d61c054c.chunk.js",
-    "main.js.map": "/helpee-shop/static/js/main.d61c054c.chunk.js.map",
-    "runtime-main.js": "/helpee-shop/static/js/runtime-main.9250a2ff.js",
-    "runtime-main.js.map": "/helpee-shop/static/js/runtime-main.9250a2ff.js.map",
-    "static/js/2.ebce26f5.chunk.js": "/helpee-shop/static/js/2.ebce26f5.chunk.js",
-    "static/js/2.ebce26f5.chunk.js.map": "/helpee-shop/static/js/2.ebce26f5.chunk.js.map",
-    "static/js/3.ea6d300d.chunk.js": "/helpee-shop/static/js/3.ea6d300d.chunk.js",
-    "static/js/3.ea6d300d.chunk.js.map": "/helpee-shop/static/js/3.ea6d300d.chunk.js.map",
+    "main.css": "/helpee-shop/static/css/main.7b8cee5c.chunk.css",
+    "main.js": "/helpee-shop/static/js/main.99a3f250.chunk.js",
+    "main.js.map": "/helpee-shop/static/js/main.99a3f250.chunk.js.map",
+    "runtime-main.js": "/helpee-shop/static/js/runtime-main.337378ce.js",
+    "runtime-main.js.map": "/helpee-shop/static/js/runtime-main.337378ce.js.map",
+    "static/js/2.adc78b65.chunk.js": "/helpee-shop/static/js/2.adc78b65.chunk.js",
+    "static/js/2.adc78b65.chunk.js.map": "/helpee-shop/static/js/2.adc78b65.chunk.js.map",
+    "static/js/3.05d1c759.chunk.js": "/helpee-shop/static/js/3.05d1c759.chunk.js",
+    "static/js/3.05d1c759.chunk.js.map": "/helpee-shop/static/js/3.05d1c759.chunk.js.map",
     "index.html": "/helpee-shop/index.html",
-    "static/css/main.a6d19dbe.chunk.css.map": "/helpee-shop/static/css/main.a6d19dbe.chunk.css.map",
-    "static/js/2.ebce26f5.chunk.js.LICENSE.txt": "/helpee-shop/static/js/2.ebce26f5.chunk.js.LICENSE.txt"
+    "static/css/main.7b8cee5c.chunk.css.map": "/helpee-shop/static/css/main.7b8cee5c.chunk.css.map",
+    "static/js/2.adc78b65.chunk.js.LICENSE.txt": "/helpee-shop/static/js/2.adc78b65.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/helpee-shop/static/media/background.login.a952056c.jpg",
+    "static/media/main.logo.1618830a.jpg": "/helpee-shop/static/media/main.logo.1618830a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9250a2ff.js",
-    "static/js/2.ebce26f5.chunk.js",
-    "static/css/main.a6d19dbe.chunk.css",
-    "static/js/main.d61c054c.chunk.js"
+    "static/js/runtime-main.337378ce.js",
+    "static/js/2.adc78b65.chunk.js",
+    "static/css/main.7b8cee5c.chunk.css",
+    "static/js/main.99a3f250.chunk.js"
   ]
 }
