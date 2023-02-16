@@ -23,6 +23,9 @@ module.exports = {
       },
       backgroundImage: {
         "login" : "url('/src/assets/background.login.jpg')"
+      },
+      textUnderlineOffset: {
+        8: '8px',
       }
     },
   },

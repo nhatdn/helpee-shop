@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from "react";
-import { Container, Header, Title, Description, Mandatory, Footer, Button, Label, Input } from "../../components";
+import { Container, Header, Title, Description, Mandatory, License, Button, Label, Input } from "../../components";
 import { getDataFromEventInput } from "../../helpers";
+
 const UpdateInformation = (): JSX.Element => {
 	const [password, setPassword] = useState<string>()
 	const [newPassword, setNewPassword] = useState<string>()
@@ -77,7 +78,7 @@ const UpdateInformation = (): JSX.Element => {
 					</div>
 				</form>
 			</Container>
-			<Footer/>
+			<License mode="dark"/>
 		</React.Fragment>
 	)
 }

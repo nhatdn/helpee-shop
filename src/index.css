@@ -6,6 +6,22 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.remaining-login {
-  height: calc(100vh - 92px);
+
+.underline-offset-8 {
+  text-underline-offset: 8px;
+}
+
+::-webkit-scrollbar {
+  cursor: pointer;
+  width: 100%;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  cursor: pointer;
+  background: #EE4D2D;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #32CB00;
 }

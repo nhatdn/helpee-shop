@@ -11,6 +11,7 @@ import { Footer } from "./footer";
 import { Search } from "./search";
 import { MainHeader } from "./header/main"
 import { Menu } from "./menu";
+import { License } from "./license";
 export {
 	Label,
 	Input,
@@ -24,5 +25,6 @@ export {
 	Footer,
 	Search,
 	MainHeader,
-	Menu
+	Menu,
+	License
 }
