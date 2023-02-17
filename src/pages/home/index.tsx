@@ -5,6 +5,8 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { ASSETS } from "../../constants"
 import { ShoppingCart } from "react-feather"
+
+
 const Home = (): JSX.Element => {
     const [showBanner, setShowBanner] = useState<boolean>(true);
     useEffect(() => {
@@ -15,7 +17,7 @@ const Home = (): JSX.Element => {
         const controls = new OrbitControls( camera, renderer.domElement );
 
         root?.childNodes.forEach(node => (node.nodeName === 'CANVAS' && node.remove()));
-        camera.position.set(0, 1, 2);
+        camera.position.set(0, 1, 0);
         renderer.setClearColor( 0x000000, 0 );
         renderer.setSize(window.innerWidth - 17 , 500 );
         function onWindowResize() {
@@ -23,9 +25,12 @@ const Home = (): JSX.Element => {
             camera.updateProjectionMatrix();
             renderer.setSize(window.innerWidth - 17 , 500 );
         }
+        const lightPoint = new THREE.PointLight( 0xffffff , 3, 100 ); //0xFFED00
+        lightPoint.position.set( 0, 15, 15);
+        scene.add( lightPoint );
         let model :THREE.Group;
         const loader = new GLTFLoader();
-        loader.load("https://raw.githubusercontent.com/nhatdn/helpee-shop/master/src/assets/glbs/vegetables.glb", (gltf) => {
+        loader.load(ASSETS.GLB.FOODS, (gltf) => {
             model = gltf.scene;
             scene.add(gltf.scene);
             root?.appendChild(renderer.domElement);

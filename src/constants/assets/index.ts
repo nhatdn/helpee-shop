@@ -38,6 +38,8 @@ import TRUNGGA from "../../assets/foods/trung-ga.jpg";
 import CUCAITRANG from "../../assets/foods/cu-cai-trang.jpg";
 import NUOCMAM from "../../assets/foods/nuoc-mam.jpg";
 
+import GLB from "./glb";
+
 const HIGHTLIGHT = {
 	TRAICAY,
 	THITHEO,
@@ -83,5 +85,6 @@ export {
 	BANNER,
 	SHORTBANNER,
 	SOCIANETWORK,
-	FOODS
+	FOODS,
+	GLB
 };
